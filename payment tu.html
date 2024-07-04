@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body> <div class="main">
+    <h1>Payment form </h1>
+<img class="img" src="img.jpeg" alt=" this ia image" >
+<h2>Contact information</h2>
+    <div>
+    <p class="name">NAME*: <input type="text" name="name"></p>
+</div>
+    <div>
+    <p class=" age">AGE*: <input type="age" age="age"></p>
+</div>
+<div class="kat">
+    <p>
+        <fieldset>
+        <LEgend>GENDER</LEgend>  
+        MALE <input type="radio" name="gender" id="gender">
+        FEMALE <input type="radio" name="gender" id="gender">
+        OTHER <input type="radio" name="gender" id="gender">
+        </fieldset>
+    </p>
+</div>
+<div class="address">
+    <P>ADDRESS <textarea name="address" id="addres" cols="100" rows="8"></textarea> 
+    </P>
+</div>
+    <div class="email">
+    <p>EMAIL: <input type="email" name="email" id="email"></p>
+    <p>PIN CODE: <input type="number" name="pincode" id="pincode"></p>
+</div>
+    <hr>
+    <hr>
+    <div>
+    <h2 class="card information">CARD information</h2>
+    
+    <P class="select">
+        <select  name="card_type" id="card_type">
+            <option class="ma" value="">--select a card type for payment--</option>
+            <option class="master" value="master CARD">master card</option>
+            <option class="visa" value="VISA">VISA</option>
+            <option class="rupay" value="RUPAY">RUPAY</option>
+            <option class="upi" value="UPI">UPI</option>
+            <option class="bitcoin" value="BITCOIN">BITCOIN/option>
+        </select>
+    </P>
+
+</div>
+<div class="paynow">
+    <P class="card">CARD number : <input type="number" name="card number" id="card number"></P>
+    <p class="date" >EXPIRY date <input type="date" name="date" id="date"></p>
+    <p class="cvv">CVV:- <input type="password" name="cvv" id="cvv"></p>
+    <div class="cool">
+    <input type="submit" value="PAY now">
+</div>       
+</div>
+</body>
+</html>

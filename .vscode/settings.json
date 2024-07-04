@@ -1,0 +1,5 @@
+{
+    "fiveServer.openTerminal": false,
+    "fiveServer.navigate": false,
+    "liveServer.settings.CustomBrowser": "chrome"
+}
